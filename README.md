@@ -1,24 +1,21 @@
-# README
+# File Uploader and Auth - Using Devise and CarrierWave Gem
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+The first thing to do is to clone the repository:
 
-* Ruby version
+```sh
+$ git clone git@github.com:anshckr/FileUpload-Auth-Using-Gem.git
+```
 
-* System dependencies
+Then install the Gems:
+```sh
+$ bundle install
+```
 
-* Configuration
+Once the installation has finished, run the app:
+```sh
+$ rails server
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+and open your browser at `http://localhost:3000`.
